@@ -1,0 +1,20 @@
+
+div.pagination { 
+	background: transparent url('../images/bd-post-title.png') left top repeat-x;
+	padding: 20px 0; height: 28px; 
+}
+div.pagination span, div.pagination a {
+	display: block; float: left; height: 28px;
+	margin: 0 10px 0 0; padding: 0 10px; text-decoration: none;
+	color: #333;
+	font-size: 11px; line-height: 28px; font-weight: bold; text-transform: uppercase;
+}
+
+div.pagination span.pages { color: #999; }
+div.pagination span.pages span.n {
+	display: inline; color: #333; margin: 0; padding: 0; border: 0 none; float: none;
+}
+div.pagination span.current, div.pagination a:hover, div.pagination a:active {
+	color: #333; background: #afaea6 none;
+}
+
