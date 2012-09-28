@@ -52,15 +52,13 @@ body
 	top:0px;
 	width:200px;
 	padding:10px;
-	background-color:#FAFAFA;
-	
+	background-color:#FontsAFAFA;
 }
 #sidebar h3
 {
-	border-top: solid thin #ccc;
 	margin-top:15px;
 	padding-top: 5px;
-	font-size: 1.25em !important;
+	font-size: 1.5em !important;
 }
 .textwidget
 {
@@ -492,6 +490,18 @@ table tbody td
 	float:left;
 	margin:20px 15px 25px 5px;
 }
+#featuredSlider{
+	padding-bottom:20px;
+}
+.trending
+{
+	font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#ccc;
+	line-height: .85em;
+	padding-bottom: 10px;
+}
+
 .postContainer {
 	border-top: #ccc dotted thin;	
 }

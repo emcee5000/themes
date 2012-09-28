@@ -1,10 +1,13 @@
 <?php get_header(); ?>
 	<div id="featuredPosts">
-       	
+		<div class="trending">Trending Now</div>
        		<div id="featuredSlider">
-			<img src="<?php bloginfo('template_directory');?>/images/sliderTempHolder.png" alt="Slider"/> 
+			<?php if ( function_exists( 'get_pointelle_slider' ) ) {
+  get_pointelle_slider(); } ?>
        		</div>     
        	</div>
+	<div class="postDivider"></div>
+	<div class="trending">All Stories</div>
 	<div id="mainWrapper">
 		<div id="sidebar"><?php dynamic_sidebar('Sidebar'); ?>
 	</div>
