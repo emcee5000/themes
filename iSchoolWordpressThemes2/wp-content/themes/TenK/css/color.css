@@ -1,0 +1,140 @@
+/*
+Section: Color
+*/
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { color: #333; background: #0b0a0a none; }
+blockquote { border-color: #c8c8c8; background: #eee none }
+blockquote blockquote { border-color: #c8c8c8; background: #fefefe none }
+blockquote blockquote blockquote { border-color: #c8c8c8; background: #eee none }
+
+a:link, a:visited { color: #882311; }
+a:hover, a:active { color: #882311; }
+
+
+/* Class selectors
+-----------------------------------------*/
+
+
+
+/* Container
+-----------------------------------------*/
+
+
+
+/* Header
+-----------------------------------------*/
+
+div#header { background: transparent url('../images/bg-featured.gif') left bottom repeat-x; }
+div#header .title a { background: transparent url('../images/site-name.png') left top no-repeat; }
+
+.home div#header { background: transparent none; }
+
+
+/* Featured
+-----------------------------------------*/
+
+div#featured { background: transparent url('../images/bg-featured.gif') left bottom repeat-x; }
+div#featured .pad { background: transparent url('../images/bg-featured-pad.jpg') center bottom no-repeat; }
+
+
+/* Body
+-----------------------------------------*/
+
+div#body { 
+	background: transparent url('../images/bg-body.jpg') left top repeat; text-shadow: #fff 1px 1px; 
+	border-top-color: #fff; border-bottom-color: #fff;
+}
+div#body .pad { background: transparent url('../images/bg-body-pad.png') 620px 0 repeat-y; }
+
+div#content .pad { background: transparent none; }
+div#sidebar .pad { background: transparent none; }
+
+
+
+/* Post
+----------------------------------------*/
+
+.content-group .hentry .title { background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
+.content-group .hentry h2 a:link, .content-group .hentry h2 a:visited { color: #474747; }
+.content-group .hentry h2 a:hover, .content-group .hentry h2 a:active  { color: #882311; }
+.content-group .hentry .thumbnail img { border-color: #c7c7c7; background: #f2f2f2; }
+.content-group .hentry .links { color: #000; }
+.content-group .hentry .links a:link, .content-group .hentry .links a:visited { color: #000; }
+.content-group .hentry .links a:hover, .content-group .hentry .links a:active { color: #882311; }
+
+.content-singular h1 { color: #882311; background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
+
+.not-found .title { background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
+.not-found h1 { color: #882311; background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
+
+.post .post-box .title { background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
+.post .post-box-about-author .title h2 { background: transparent url('../images/bg-post-box-author.png') 0 0 no-repeat; }
+.post .post-box-sb h2 { background: transparent url('../images/bg-post-box-spread-love.png') 0 0 no-repeat; }
+.post .post-box-sb ul li { background: transparent none; }
+.post .post-box-sb img { background: transparent none; }
+.post .post-box-related h2 { background: transparent url('../images/bg-post-box-related-posts.png') 0 0 no-repeat; }
+.post .post-box-comments h2 { background: transparent url('../images/bg-post-box-comments.png') 0 0 no-repeat; }
+.post .post-box-trackbacks h2 { background: transparent url('../images/bg-post-box-trackbacks.png') 0 0 no-repeat; }
+.post .post-box-reply h2 { background: transparent url('../images/bg-post-box-comment-add.png') 0 0 no-repeat; }
+
+.comment { background: #f2f2f2 none; }
+.comment .comment-author { background: #ccc none; }
+.comment .comment-avatar img { background: #fff none; }
+
+
+
+/* Comment Form
+-----------------------------------------*/
+
+.post .post-box-reply .title p.cancel-comment-reply { background: transparent none; }
+
+form#comment-form p.input input { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form small { color: #b7b7b7; }
+form#comment-form textarea { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form button { background: transparent url('../images/button-comments-submit.png') left top no-repeat; }
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#sidebar .box { }
+div#sidebar .box .title { background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
+div#sidebar .box h3 { color: #333; text-shadow: 1px 1px #fff; }
+div#sidebar .box a { color: #000; }
+div#sidebar .box a:hover { color: #882311; }
+div#sidebar .box ul li { background: transparent url('../images/bullet-list-item-sidebar.png') left 10px no-repeat; }
+
+div#sidebar .box-socialnet ul li.facebook { background: transparent url('../images/icon-sn-facebook.png') left top no-repeat; }
+div#sidebar .box-socialnet ul li.googlebuzz { background: transparent url('../images/icon-sn-googlebuzz.png') left top no-repeat; }
+div#sidebar .box-socialnet ul li.rss { background: transparent url('../images/icon-sn-rss.png') left top no-repeat; }
+div#sidebar .box-socialnet ul li.twitter { background: transparent url('../images/icon-sn-twitter.png') left top no-repeat; }
+div#sidebar .box-socialnet ul li.mail { background: transparent url('../images/icon-sn-mail.png') left top no-repeat; }
+div#sidebar .box-socialnet input { 
+	color: #333; text-shadow: 0px 0px #fff;
+	background: transparent url('../images/input-search.png') left top no-repeat; 
+}
+div#sidebar .box-socialnet button { background: transparent url('../images/button-search.png') left top no-repeat; }
+
+div#sidebar .box-popular-posts .interior ul li span.post-stats { color: #999; }
+
+div#sidebar .box-tweet ul li { background: transparent url('../images/bullet-list-item-sidebar.png') left 8px no-repeat; color: #999; }
+div#sidebar .box-tweet ul li abbr { color: #000; }
+div#sidebar .box-tweet ul li abbr:hover { color: #882311; }
+
+table#wp-calendar th { border-color: #666; background: #666 none; color: #fff; text-shadow: 0px 0px #fff; }
+table#wp-calendar td { border-color: #ccc; }
+
+
+
+/* Footer
+-----------------------------------------*/
+
+div#footer { color: #232323; text-shadow: -1px -1px #000; }
+div#footer a:link, div#footer a:visited { color: #232323; text-shadow: -1px -1px #000;  } 
+
+
+

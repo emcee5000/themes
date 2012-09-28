@@ -1,0 +1,237 @@
+/*
+Section: Layout
+*/
+
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { margin: 0; padding: 0; overflow-x: hidden; }
+form { margin: 0; padding: 0; display: block; }
+blockquote { margin: 0; padding: 1em 3em; border: solid 1px; }
+iframe { display: block; margin: 0; padding: 0; }
+a img { border: 0 none; }
+abbr { border: 0 none; }
+
+
+
+/* Class selectors
+-----------------------------------------*/
+
+.no-display { display: none; }
+.clear { clear: both; }
+.read-more { display: block; margin: 0; padding: 0; height: 46px; } 
+.read-more a { 
+	display: block; margin: 0; padding: 0; float: left; width: 162px; height: 46px; padding: 0; 
+	border-bottom: 0 none;
+} 
+
+/* Container
+-----------------------------------------*/
+
+div#container { }
+
+
+
+/* Header
+-----------------------------------------*/
+
+div#header {  }
+div#header .pad { width: 940px; margin: 0 auto; }
+div#header h3 { display: none; }
+div#header .box-masthead { height: 110px; padding: 15px 0 5px 0; margin: 0; float: left; }
+div#header .title { display: block; margin: 0; padding: 0; }
+div#header .title a { 
+	display: block; width: 408px; height: 100px; margin: 0; padding: 3px 0 3px 0; 
+	float: left; text-indent: -999999px; outline: none; border-bottom: 0 none;
+}
+div#header .description { display: none; }
+
+
+
+/* Featured
+-----------------------------------------*/
+
+div#featured { margin: 0; padding: 0; position: relative;  }
+div#featured .pad { height: 380px; }
+div#featured h2 { display: none; }
+
+
+
+/* Body
+-----------------------------------------*/
+
+div#body { padding: 32px 0 32px 0; border-top: 1px solid; border-bottom: 1px solid; }
+div#body .pad { width: 940px; margin: 0 auto; }
+
+div#content { width: 600px; margin: 0 20px 0 0; padding:  0; float: left; }
+div#content .pad { width: auto; margin: 0; padding: 0; }
+
+div#sidebar { width: 300px; padding: 0; margin: 0; float: right; }
+div#sidebar .pad { width: auto; margin: 0; padding: 0; }
+
+
+
+/* Post
+-----------------------------------------*/
+
+.hentry .meta { margin: 0; padding: 0; }
+.hentry .meta p { display: block; margin: 0; padding: 0; }
+.hentry .meta p span { display: inline-block; padding: 0; }
+.hentry .meta p span.no-display { display: none; }
+
+.content-group h1 { display: block; margin: 0; padding: 0 0 1em 0; text-align: center; }
+
+.content-group .hentry { padding: 0 0 40px 0;  position: relative; }
+.content-group .hentry .title { display: block; margin: 0 0 10px 0; padding: 0; }
+.content-group .hentry .title h2 { display: block; padding: 5px 0 18px 50px; margin: 0; }
+.content-group .hentry .meta { position: absolute; left: 0; top: 0; margin: 0; }
+.content-group .hentry .thumbnail { float: left; }
+.content-group .hentry .thumbnail a { border: 0 none; }
+.content-group .hentry .thumbnail img { border: 1px solid; padding: 10px; }
+.content-group .hentry .share { float: right; margin: 6px 0 5px 5px; }
+.content-group .hentry .share ul { display: block; padding: 0; margin: 0; list-style: none; }
+.content-group .hentry .share ul li { display: block; padding: 0; margin: 0 0 5px 0; float: none; }
+.content-group .hentry .share ul li.facebook .fb_share_count_wrapper { float: none; }
+.content-group .hentry .excerpt { margin: 0 20px 0 180px; min-height: 170px; }
+
+.content-singular .hentry { padding: 0 20px 30px 0; }
+.content-singular .hentry .meta { margin: 0 0 25px 0; padding: 0; }
+.content-singular h1 { display: block; margin: 0 0 5px 0; padding: 0 0 18px 0; }
+
+.not-found .title h2 { padding: 0 0 18px 0; }
+
+
+/* Post Details
+-----------------------------------------*/
+
+.post .post-box { margin: 0 0 30px 0; }
+.post .post-box .title { margin: 0; padding: 0; }
+.post .post-box .title h2 { display: block; margin: 0; padding: 12px 10px 15px 45px; width: auto; float: none; }
+
+.post .post-box-about-author img { float: left; margin: 0 10px 0 0; }
+
+.post .post-box-sb .interior { }
+.post .post-box-sb .interior ul { display: block; list-style: none; margin: 15px 0 0 0; padding: 0; height: 32px; }
+.post .post-box-sb .interior ul li { display: block; margin: 0 15px 0 0; padding: 0; float: left; }
+.post .post-box-sb .interior ul li a { display: block; float: left; border: 0 none; }
+.post .post-box-sb .interior ul li a img { border: 0 none; padding: 0;}
+
+.post .post-box-reply { margin: 0; }
+
+
+
+/* Comments
+-----------------------------------------*/
+
+ol.comments-list { display: block; list-style: none; margin: 15px 0 0 0; padding: 0; }
+ol.comments-list li.comment { display: block; list-style: none; margin: 0; padding: 0; }
+ol.comments-list li.comment ul.children { margin: 0 0 0 4em; }
+
+.comment { margin: 0 0 10px 0; }
+.comment .comment-author { padding: 10px; }
+.comment .comment-avatar { float: left; }
+.comment .comment-avatar img { margin: 0 10px 0 0; padding: 4px; }
+.comment .comment-meta { float: left; }
+.comment .comment-meta span { display: block; margin: 0; padding: 0; }
+.comment .comment-actions { float: right; }
+.comment .comment-details-interior { padding: 0 10px 10px 10px; }
+.comment .comment-details-interior ol, 
+.comment .comment-details-interior ul { padding-top: 1em; padding-bottom: 1em; }
+
+ol.trackbacks-list { margin: 0 0 0 3em; padding: 15px 0 0 0; }
+
+
+
+/* Comment Form
+-----------------------------------------*/
+
+.post .post-box-reply .title { margin: 0 0 10px 0; }
+.post .post-box-reply .title h2 { display: block; margin: 0; padding: 12px 10px 12px 45px; border-bottom: 0 none; float: left; }
+.post .post-box-reply .title p.cancel-comment-reply { display: block; float: right; margin: 0; padding: 12px 0; width: auto; }
+
+form#comment-form { display: block; margin: 0; padding: 0; }
+form#comment-form p { display: block; margin: 0 0 20px 0; padding: 0; line-height: 27px; }
+form#comment-form p.input label { display: none; }
+form#comment-form p.input input { width: 390px; padding: 10px; border: 1px solid; }
+form#comment-form p.textarea { display: block; margin: 5px 0 10px 0;  }
+form#comment-form p.textarea label { display: none; }
+form#comment-form p.button { display: block; text-align: left; float: right; margin: 0; padding: 0; }
+form#comment-form p.subscribe-to-comments { margin: 0; padding: 0; float: left; }
+form#comment-form textarea { width: 558px; height: 148px; padding: 5px 10px; border: 1px solid; }
+form#comment-form button { 
+	display: block; width: 99px; height: 29px; margin: 0; padding: 0; float: right; border: 0; cursor: pointer; http://www.facebook.com/paddsolutions
+}
+form#comment-form button span { display: none; }
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#sidebar h2 { display: none; }
+div#sidebar .box { margin: 0 0 20px 0; padding: 0; }
+div#sidebar .box .title { margin: 0 0 18px 0; padding: 15px 22px }
+div#sidebar .box .interior { padding: 0 22px 15px 22px; }
+div#sidebar .box h3 { display: block; margin: 0; padding: 0;  }
+div#sidebar .box ul { display: block; margin: 0; padding: 0; }
+div#sidebar .box ul li { display: block; margin: 0; padding: 2px 0 2px 13px; }
+div#sidebar .box ul ul { display: block; margin: 0; padding: 0; }
+
+div#sidebar .box-socialnet { position: relative; height: 50px; }
+div#sidebar .box-socialnet .title { position: absolute; top: 25px; width: 255px; }
+div#sidebar .box-socialnet .interior { height: 60px; }
+div#sidebar .box-socialnet ul { position: absolute; right: 22px; top: 42px; }
+div#sidebar .box-socialnet ul li { float: left; width: 16px; height: 16px; margin: 0 0 0 6px; padding: 0; }
+div#sidebar .box-socialnet ul li a { display: block; width: 16px; height: 16px; text-indent: -999999px; margin: 0; padding: 0; }
+div#sidebar .box-socialnet p { display: block; margin: 0; padding: 0; text-align: center; }
+div#sidebar .box-socialnet form { position: absolute; top: 0; }
+div#sidebar .box-socialnet label { display: none; }
+div#sidebar .box-socialnet span.input { display: block; margin: 0; padding: 0 10px 0 0; float: left; }
+div#sidebar .box-socialnet input { width: 195px; margin: 0; padding: 9px 10px; border: 0 none; }
+div#sidebar .box-socialnet button { width: 32px; height: 33px; border: 0 none; margin: 0; padding: 0; }
+div#sidebar .box-socialnet button span { display: none; }
+
+div#sidebar .box-ads .interior { width: 256px; margin: 0 auto; padding: 0; }
+div#sidebar .box-ads a { border: 0 none; }
+div#sidebar .box-ads img { border: 0 none; margin: 0; }
+div#sidebar .box-ads span { display: block; margin: 0 0 6px 0; padding: 0; float: left; }
+div#sidebar .box-ads span.ads1, div#sidebar .box-ads span.ads3 { margin-right: 6px; } 
+div#sidebar .box-ads span.ads3, div#sidebar .box-ads span.ads4 { margin-bottom: 0; } 
+
+div#sidebar .box-popular-posts .interior { }
+div#sidebar .box-popular-posts .interior ul { display: block; margin: 0; padding: 0; list-style: none; }
+div#sidebar .box-popular-posts .interior ul li { min-height: 57px; margin: 0 0 16px 0; padding: 0; }
+div#sidebar .box-popular-posts .interior ul li img { float: left; }
+div#sidebar .box-popular-posts .interior ul li span.wpp-post-title { display: block; margin: 0 0 0 67px; }
+div#sidebar .box-popular-posts .interior ul li span.post-stats { display: block; margin: 0 0 0 67px; }
+div#sidebar .box-popular-posts .interior ul li a:hover span { text-decoration: underline; }
+
+div#sidebar .box-tweet ul li { padding: 0 0 0 13px; margin: 0 0 1.1em 0; }
+div#sidebar .box-tweet ul li abbr { display: block; }
+
+div#flickrrss { position: relative; height: 250px; }
+div#flickrrss .interior { width: 290px; margin: 0; position: absolute; }
+div#flickrrss a { display: block; float: left; margin: 0 15px 15px 0; border: 0 none; }
+div#flickrrss img { border: 0 none; }
+
+table#wp-calendar { width: 256px; }
+table#wp-calendar caption { text-align: right; }
+table#wp-calendar th, table#wp-calendar td { border: 1px solid; }
+table#wp-calendar td { text-align: right; padding: 0 6px; }
+table#wp-calendar td.pad { border: 0 none; }
+table#wp-calendar td#prev, table#wp-calendar td#next { border: 0 none; }
+table#wp-calendar td#prev { text-align: left; }
+table#wp-calendar td#next { text-align: right; }
+
+
+
+
+/* Footer
+-----------------------------------------*/
+
+div#footer { padding: 20px 0; }
+div#footer .pad { width: 940px; margin: 0 auto; }
+div#footer p { display: block; margin: 0; padding: 0; }
+div#footer p.copyright { float: left; }
+div#footer p.annotation { float: right; }

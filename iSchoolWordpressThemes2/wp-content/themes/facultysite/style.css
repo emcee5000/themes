@@ -1,0 +1,175 @@
+﻿/*
+Theme Name: Faculty Center
+Description: Custom theme for the iSchool Faculty Center Website.
+Author: Michael Clarke and Michael Cummings @ Syracuse iSchool
+Version: 1.0
+*/
+* {margin:0; padding:0;} /* reset */
+
+body {font-family: Arial,Helvetica,sans-serif;font-size:.875em; /* 14px */line-height:1.5em;color:#333; background-image:url('images/bg.jpg');
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin-top:24px;	
+margin-bottom:14px;
+font-family:SteelfishRegular,Arial,Helvetica,sans-serif;
+font-weight: normal;
+color:#333;
+}
+
+h1 {
+  font-size: 3em; /* 24px --> 24 Ã· 16 = 1.5 */
+  line-height: 1em; /* 24px --> 24 Ã· 24 = 1 */
+  
+}
+
+h2 {
+  font-size: 2.8em; /* 22px --> 22 Ã· 16 = 1.375 */
+  line-height: 1.0909em; /* 24px --> 24 Ã· 22 = 1.090909(09) */
+}
+
+h3 {
+  font-size: 2.2em; /* 20px --> 20 Ã· 16 = 1.25 */
+  line-height: 1.2em; /* 24px --> 24 Ã· 20 = 1.2 */
+}
+
+h4 {
+  font-size: 2em; /* 18px --> 18 Ã· 16 = 1.125 */
+  line-height: 1.333em; /* 24px --> 24 Ã· 18 = 1.3333333(3) */
+}
+
+h5, h6 {
+  font-size: 1.5em; /* 16px --> 16 Ã· 16 = 1 */
+  line-height: 1.5em; /* 24px --> 24 Ã· 16 = 1.5 */
+}
+
+img {border-style: none;}
+
+#container {margin:auto; width:960px;}
+#container a {color:#f60; text-decoration:underline;}
+
+#header {height:70px; margin-bottom:10px; padding-top:15px; color:#fff; font-size:48px; overflow:none;}
+#header .left {float:left; margin-top:5px;}
+#header .right {float:right; margin-right:5px;}
+
+#search {float:right; margin-top:20px;}
+#search input {margin-bottom:10px; padding:3px;}
+#search .button {color:#fff; font-family:BebasNeueRegular,Arial,sans-serif; font-size: 14px; font-weight:normal; border:none; margin-right:5px; padding:5px; background:#8a2003;}
+
+#nav {height:60px; background-image:url(images/navBg.gif);}
+#nav a {color:black; text-decoration:none;}
+#nav ul {list-style:none;}
+#nav ul li {float:left; display:block;}
+#nav ul li a {float:left; margin:10px 8px 8px 8px; padding:10px 10px; color:white; font-family: BebasNeueRegular, sans-serif; font-size:20px; }
+#nav ul li a:hover {background:#fff; color:#cccccc; text-decoration:none;}
+#nav .current_page_item a {background:#fff; color:#fb6600 !important;}
+#nav .current_page_ancestor a {background:#fff; color:#fb6600 !important;}
+
+#leftNav {float:left; width:220px; margin-bottom:30px; background-color:#666;}
+#leftNav ul {list-style:none; height:100%;}
+#leftNav ul li a {
+	display:block; 
+	padding:15px;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	border-bottom:1px solid #222;
+	background: #000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+	background: -moz-linear-gradient(top,  #000,  #333);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#3333333');
+
+}
+#leftNav ul li a:hover {
+	background: #000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#555));
+	background: -moz-linear-gradient(top,  #000,  #555);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000', endColorstr='#5555555');
+}
+
+#leftNav .current_page_item a {
+	background: #000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#333));
+	background: -moz-linear-gradient(top,  #888,  #333);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8888888', endColorstr='#3333333');
+}
+#leftNav ul li a:hover {
+	background: #000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#444));
+	background: -moz-linear-gradient(top,  #888,  #444);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#444444');
+}
+#leftNav ul li ul li a:hover {
+	background: #000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#444));
+	background: -moz-linear-gradient(top,  #888,  #444);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#444444');
+}
+#leftNav ul .children li a {
+	font-size:10px;
+	background:#333;
+	padding:4px 0 4px 20px;
+}
+#leftNav ul li .current_page_item a {
+	background: #000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#444));
+	background: -moz-linear-gradient(top,  #888,  #444);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#444444');
+}
+.children { display: none; }
+.current_page_item .children,
+.current_page_ancestor .children,
+.current_page_parent .children
+{ display: block; }
+
+#inner_header {background:#fef9dc; padding:20px 36px; border-bottom:1px solid #ccc;}
+/*#inner_header h1 {color:#4a4a4a; font-size:36px; margin-bottom:8px;}*/
+#inner_header h2 {color:#999; font-size: 16px; font-weight:normal;}
+
+#wrap {float:left; width:960px; background-image: url(images/tile.png); background-color:#ccc; background-repeat:repeat-y; }
+#content {float:right; width:720px; padding:10px; min-height:600px; background:#fff; font-size:13px; line-height:1.5;}
+
+#rotator {width:500; margin-top:15px; padding-left:235px;}
+
+#post_content {float:left; width:930px; padding:15px; min-height:600px; background:#fff; font-size:13px; line-height:1.5;}
+#comments {padding:10px 50px 30px 50px;}
+.post_category {margin-bottom:6px;}
+.post_image {float:left; margin:20px;}
+
+#results {padding:30px;}
+#results h1 {font-size:40px;}
+#results h2 {margin:15px 0; font-size:32px; }
+#results h2 a {color:#000;}
+#results p {margin-bottom:15px;}
+#results ul {list-style: square outside; margin:10px 0 10px 30px;}
+#results ul li {padding:2px 0 10px 0;}
+#results ul ul, ol ol {margin: 0 0 0 20px;}
+#results hr {color:#eee;}
+
+#post {padding:30px; padding-top:20px;}
+#post h1 a {text-decoration:none; color:#333333;}
+#post h1 a:hover {text-decoration:underline;}
+#post h2 a {text-decoration:none; color:#333333;}
+#post h2 a:hover {text-decoration:underline;}
+#post_info {float:left; margin:5px 0; padding:2px 5px; background:#f9f9f9; color:#777;}
+#post p {margin:10px 0;}
+#post ul {list-style: square outside; margin:10px 0 10px 30px;}
+#post ul li {padding:2px 0 2px 0;}
+#post ul ul, ol ol {margin: 0 0 0 20px;}
+
+#post_preview {padding:5px 30px; border-bottom:1px solid #dfdfdf; background:#fff;}
+#post_preview h2 {margin:15px 0;}
+#post_preview h2 a {color:#8a2003;text-decoration: none;}
+#post_preview h2 a:hover {text-decoration: underline;}
+#post_preview ul {list-style: square outside; margin:10px 0 10px 30px;}
+#post_preview ul li {padding:2px 0 10px 0;}
+#post_preview ul ul, ol ol {margin: 0 0 0 20px;}
+
+#paging {padding:10px 15px 30px 15px;}
+#paging .left {float:left;}
+#paging .right {float:right;}
+
+#footer {padding:20px; background:#333; font-size:12px; color:#fff; text-align:right;} 
+
+.reset {clear:both;}

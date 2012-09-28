@@ -1,0 +1,3 @@
+[18-Apr-2012 04:28:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/facadmin/public_html/wp-content/themes/facultysite/index.php on line 1
+[18-Apr-2012 04:28:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/facadmin/public_html/wp-content/themes/facultysite/index.php on line 1
+[27-Jul-2012 20:49:19 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/facadmin/public_html/wp-content/themes/facultysite/index.php on line 1
