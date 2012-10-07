@@ -1,0 +1,88 @@
+------------------ VER 1.1 -----------------
+Fixed: removed notices after update wordpress to 4.5
+Fixed: blog home page setting in reading options
+Added: google anaylitics options in the footer
+Added: target attribute in the [social] shortcodes
+Added: link feature in the "Text Image Widget"
+Added: category description in the category pages
+
+
+
+
+------------------ VER 1.0.8 ---------------
+1) Fixed Google Analytics code
+2) Added feature where will remove the "Comments off" words, if the comments are disabled.
+3) Added more feedback errors for the "import/export" panel
+4) Added the slogan also for the post single template
+5) Fixed some bugs in the home template
+6) Fixed bug in the prettyphoto layout setting
+7) Fixed : warning shown by the update notifier system
+8) Fixed : menu theme options in admin bar, when the user is not administrator
+
+
+------------------ VER 1.0.7 ---------------
+1) Fixed the homepage settings with the page for blog.
+2) Fixed alignement with portfolio 3 columns.
+3) Improved archives template.
+4) Improved localization.
+
+
+
+------------------ VER 1.0.6 ---------------
+1) Fixed localizzation for strings of comments and search form.
+2) Improved retrieving of fonts list.
+3) Upgraded Nivo slider and Cycle slider.
+4) Fixed position of metaboxes for page editor.
+5) Fixed bug with featured images.
+6) Fixed shortcode [table] (view support for changes)
+7) Added style for socials.
+8) Fixed bug with selects for contact forms.
+9) Added lightbox on wordpress gallery
+
+
+
+------------------ VER 1.0.5 ---------------
+1) Added possibility to add the image header (or slider) in any page.
+2) Fix bug on archives template page.
+3) Improve speed loading, especially for cufon libraries.
+4) Fix admin page for slider full images configuration and added the right options configuration for this slider.
+
+******* IMPORTANT ********
+According to change #1, of 1.0.5 version, we move the option to choose the slider on editor page, on box "Options Page". 
+So, you need to reselect your slider on your home page.
+FOr the front page with latest posts, you can configure the header image on Theme Options -> Sliders -> Default Header image type.
+**************************
+
+
+
+------------------ VER 1.0.4 ---------------
+1) Fix clear floats on page content.
+2) Reactivated "Recent Posts" widget.
+3) Improve Code Quality.
+4) Fix some debug error.
+5) Fix the empty search query page, added message to reinsert new searchquery.
+6) Fix title on single page post.
+
+
+
+------------------ VER 1.0.3 ---------------
+1) Fix cufon js file.
+2) Fix bug with category pages.
+3) Fix bug with upload image on post and page editor.
+4) Added new tab for premium version of theme with support, screencast for the set end more...
+
+
+
+------------------ VER 1.0.2 ---------------
+1) Fix some bugs with template.
+2) Fix broken logo image settings.
+3) Improve testimonial admin post type.
+4) Change name of functions, global variables, constants and Classes.
+
+
+
+
+------------------ VER 1.0.1 ---------------
+1) Improved code quality.
+2) Improved html and css code.
+3) Improved Admin Panel, for better santized options.

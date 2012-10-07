@@ -1,0 +1,1738 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kassyopea 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-22 11:32+0100\n"
+"PO-Revision-Date: 2011-08-22 11:32+0100\n"
+"Last-Translator: Antonio <antonino.scarfi@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "error"
+msgstr ""
+
+#: 404.php:12
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:15
+msgid "We are sorry but the page you are looking for does not exist."
+msgstr ""
+
+#: 404.php:16
+msgid "You could retourn to the "
+msgstr ""
+
+#: 404.php:16
+msgid "or search using the search box below"
+msgstr ""
+
+#: archives.php:25
+#, php-format
+msgid "Last %d posts"
+msgstr ""
+
+#: archives.php:41
+msgid "Archives by Month"
+msgstr ""
+
+#: archives.php:46
+msgid "Archives by Subject"
+msgstr ""
+
+#: comments.php:13
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:30
+msgid "no comments"
+msgstr ""
+
+#: comments.php:30
+msgid "<span>1</span> comment"
+msgstr ""
+
+#: comments.php:30
+msgid "<span>%</span> comments"
+msgstr ""
+
+#: comments.php:35
+#: comments.php:55
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:36
+#: comments.php:56
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:83
+msgid "No trackback or pingback available for this article"
+msgstr ""
+
+#: comments.php:95
+msgid "&nbsp;"
+msgstr ""
+
+#: comments.php:112
+msgid "Name"
+msgstr ""
+
+#: comments.php:114
+msgid "Email"
+msgstr ""
+
+#: comments.php:116
+msgid "Website"
+msgstr ""
+
+#: comments.php:124
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:125
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:130
+msgid "Leave a <span>Reply</span>"
+msgstr ""
+
+#: comments.php:131
+#, php-format
+msgid "Leave a <span>Reply</span> to %s"
+msgstr ""
+
+#: comments.php:132
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:133
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:29
+msgid "Sidebar for template \"Home\""
+msgstr ""
+
+#: functions.php:30
+msgid "Sidebar for template \"About\""
+msgstr ""
+
+#: functions.php:31
+msgid "Sidebar for template \"Contact\""
+msgstr ""
+
+#: gallery.php:27
+msgid "Next &raquo;"
+msgstr ""
+
+#: gallery.php:28
+msgid "&laquo; Back"
+msgstr ""
+
+#: header.php:24
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: loop-portfolio-3cols.php:43
+msgid "read more &raquo;"
+msgstr ""
+
+#: loop.php:12
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr ""
+
+#: loop.php:14
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr ""
+
+#: loop.php:16
+#, php-format
+msgid "Archive for %s | Daily archive page"
+msgstr ""
+
+#: loop.php:16
+msgid "F jS, Y"
+msgstr ""
+
+#: loop.php:18
+#, php-format
+msgid "Archive for %s | Monthly archive page"
+msgstr ""
+
+#: loop.php:18
+msgid "F Y"
+msgstr ""
+
+#: loop.php:20
+#, php-format
+msgid "Archive for %s | Yearly archive page"
+msgstr ""
+
+#: loop.php:20
+msgid "Y"
+msgstr ""
+
+#: loop.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: loop.php:24
+msgid "Author Archive"
+msgstr ""
+
+#: loop.php:26
+msgid "Blog Archives"
+msgstr ""
+
+#: loop.php:34
+msgid "(this post has no title)"
+msgstr ""
+
+#: loop.php:58
+msgid "posted by"
+msgstr ""
+
+#: loop.php:58
+msgid "on"
+msgstr ""
+
+#: loop.php:59
+msgid "No comments"
+msgstr ""
+
+#: loop.php:59
+msgid "1 comment"
+msgstr ""
+
+#: loop.php:59
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: loop.php:79
+msgid "|| Read more"
+msgstr ""
+
+#: loop.php:86
+msgid "Edit"
+msgstr ""
+
+#: loop.php:100
+msgid "Not Found"
+msgstr ""
+
+#: loop.php:102
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: searchform.php:2
+msgid "Search for"
+msgstr ""
+
+#: searchform.php:4
+#: sidebar-default.php:3
+msgid "Search"
+msgstr ""
+
+#: sidebar-default.php:8
+msgid "Archives"
+msgstr ""
+
+#: sidebar-default.php:15
+msgid "Categories"
+msgstr ""
+
+#: sidebar-default.php:31
+msgid "Blogroll"
+msgstr ""
+
+#: admin-options/arrays.php:4
+msgid "General"
+msgstr ""
+
+#: admin-options/arrays.php:5
+msgid "Colors"
+msgstr ""
+
+#: admin-options/arrays.php:6
+msgid "Typography"
+msgstr ""
+
+#: admin-options/arrays.php:7
+msgid "Sliders"
+msgstr ""
+
+#: admin-options/arrays.php:8
+msgid "Sidebars"
+msgstr ""
+
+#: admin-options/arrays.php:9
+msgid "Contact Customize"
+msgstr ""
+
+#: admin-options/arrays.php:10
+msgid "Premium"
+msgstr ""
+
+#: admin-options/arrays.php:15
+msgid "Fixed Image"
+msgstr ""
+
+#: admin-options/arrays.php:16
+msgid "Slider Content"
+msgstr ""
+
+#: admin-options/arrays.php:17
+msgid "Slider Full Images"
+msgstr ""
+
+#: admin-options/arrays.php:18
+msgid "None"
+msgstr ""
+
+#: admin-options/arrays.php:28
+msgid "Choose a category"
+msgstr ""
+
+#: admin-options/backend.php:52
+msgid "Testimonals"
+msgstr ""
+
+#: admin-options/backend.php:55
+msgid "Testimonial"
+msgstr ""
+
+#: admin-options/backend.php:55
+msgid "Testimonials"
+msgstr ""
+
+#: admin-options/backend.php:67
+#: admin-options/backend.php:70
+msgid "News"
+msgstr ""
+
+#: admin-options/backend.php:82
+#: admin-options/backend.php:85
+msgid "Portfolio"
+msgstr ""
+
+#: admin-options/backend.php:85
+msgid "Work"
+msgstr ""
+
+#: admin-options/backend.php:85
+msgid "Works"
+msgstr ""
+
+#: admin-options/backend.php:98
+#: admin-options/backend.php:101
+msgid "Gallery"
+msgstr ""
+
+#: admin-options/backend.php:101
+#: admin-options/backend.php:221
+#: admin-options/backend.php:288
+msgid "Photo"
+msgstr ""
+
+#: admin-options/backend.php:101
+msgid "Photos"
+msgstr ""
+
+#: admin-options/backend.php:113
+#: admin-options/backend.php:116
+msgid "Team"
+msgstr ""
+
+#: admin-options/backend.php:116
+msgid "Worker"
+msgstr ""
+
+#: admin-options/backend.php:116
+msgid "Workers"
+msgstr ""
+
+#: admin-options/backend.php:138
+#: admin-options/backend.php:154
+msgid "Category"
+msgstr ""
+
+#: admin-options/backend.php:146
+#: admin-options/backend.php:223
+msgid "Profile"
+msgstr ""
+
+#: admin-options/backend.php:146
+msgid "Profiles"
+msgstr ""
+
+#: admin-options/backend.php:176
+msgid "Image"
+msgstr ""
+
+#: admin-options/backend.php:177
+msgid "Story"
+msgstr ""
+
+#: admin-options/backend.php:178
+msgid "Web Site"
+msgstr ""
+
+#: admin-options/backend.php:222
+#: admin-options/backend.php:253
+#: admin-options/include/contact_add.php:157
+msgid "Description"
+msgstr ""
+
+#: admin-options/backend.php:252
+msgid "Portfolio Title"
+msgstr ""
+
+#: admin-options/backend.php:255
+msgid "Category Project"
+msgstr ""
+
+#: admin-options/backend.php:287
+msgid "Photo Title"
+msgstr ""
+
+#: admin-options/backend.php:289
+msgid "Category Photo"
+msgstr ""
+
+#: admin-options/backend.php:347
+msgid "Add New"
+msgstr ""
+
+#: admin-options/backend.php:348
+#: admin-options/backend.php:375
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: admin-options/backend.php:349
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: admin-options/backend.php:350
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: admin-options/backend.php:351
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: admin-options/backend.php:352
+#: admin-options/backend.php:369
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: admin-options/backend.php:353
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: admin-options/backend.php:354
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: admin-options/backend.php:370
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: admin-options/backend.php:371
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: admin-options/backend.php:372
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: admin-options/backend.php:373
+msgid "Edit %"
+msgstr ""
+
+#: admin-options/backend.php:374
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: admin-options/backend.php:376
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: admin-options/dashboard.php:10
+msgid "News from the support forum"
+msgstr ""
+
+#: admin-options/dashboard.php:11
+msgid "News from the YIW Blog"
+msgstr ""
+
+#: admin-options/metaboxes.php:25
+msgid "Options of page"
+msgstr ""
+
+#: admin-options/metaboxes.php:26
+msgid "Slogan Page"
+msgstr ""
+
+#: admin-options/metaboxes.php:27
+msgid "Remove WpAutoP filter."
+msgstr ""
+
+#: admin-options/metaboxes.php:28
+msgid "Extra Content"
+msgstr ""
+
+#: admin-options/metaboxes.php:31
+msgid "Video URL thumb"
+msgstr ""
+
+#: admin-options/metaboxes.php:112
+msgid "You can configure this page as you want, setting these optional options."
+msgstr ""
+
+#: admin-options/metaboxes.php:116
+msgid "Slider"
+msgstr ""
+
+#: admin-options/metaboxes.php:129
+msgid "Select the type of slider on this page."
+msgstr ""
+
+#: admin-options/metaboxes.php:137
+#: admin-options/metaboxes.php:247
+msgid "Slogan page"
+msgstr ""
+
+#: admin-options/metaboxes.php:140
+msgid "Insert the slogan showed on top of this page/post."
+msgstr ""
+
+#: admin-options/metaboxes.php:146
+msgid "Show Title"
+msgstr ""
+
+#: admin-options/metaboxes.php:148
+#: admin-options/yiw_panel.php:1134
+msgid "Yes"
+msgstr ""
+
+#: admin-options/metaboxes.php:149
+#: admin-options/yiw_panel.php:1134
+msgid "No"
+msgstr ""
+
+#: admin-options/metaboxes.php:152
+msgid "Layout Page"
+msgstr ""
+
+#: admin-options/metaboxes.php:164
+msgid "Select layout of page"
+msgstr ""
+
+#: admin-options/metaboxes.php:188
+msgid "Select sidebar of page"
+msgstr ""
+
+#: admin-options/metaboxes.php:208
+msgid "Remove 'wpautop' filter to main content."
+msgstr ""
+
+#: admin-options/metaboxes.php:224
+msgid "If you want, you can add some text to show above the footer, under content and sidebar."
+msgstr ""
+
+#: admin-options/metaboxes.php:228
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: admin-options/notify_update.php:23
+#, php-format
+msgid "<p>New version <strong>%s</strong> available of <strong>Beauty theme</strong>. You will have new email, on your email address, where you can download the new version!</p>"
+msgstr ""
+
+#: admin-options/yiw_panel.php:22
+msgid "settings saved"
+msgstr ""
+
+#: admin-options/yiw_panel.php:23
+msgid "settings reset"
+msgstr ""
+
+#: admin-options/yiw_panel.php:24
+msgid "Element deleted correctly."
+msgstr ""
+
+#: admin-options/yiw_panel.php:25
+msgid "Element updated correctly."
+msgstr ""
+
+#: admin-options/yiw_panel.php:26
+msgid "Database imported correctly."
+msgstr ""
+
+#: admin-options/yiw_panel.php:27
+#: admin-options/install/install.php:83
+msgid "An error encoured during during import. Please try again."
+msgstr ""
+
+#: admin-options/yiw_panel.php:28
+#: admin-options/install/install.php:71
+msgid "The file you have insert doesn't valid."
+msgstr ""
+
+#: admin-options/yiw_panel.php:29
+#: admin-options/install/install.php:68
+msgid "I'm sorry, the import featured is disabled."
+msgstr ""
+
+#: admin-options/yiw_panel.php:30
+msgid "Sorting done correctly."
+msgstr ""
+
+#: admin-options/yiw_panel.php:470
+#: admin-options/yiw_panel.php:1184
+msgid "Save changes"
+msgstr ""
+
+#: admin-options/yiw_panel.php:507
+msgid "To easily use the "
+msgstr ""
+
+#: admin-options/yiw_panel.php:548
+msgid "Copy to clipboard"
+msgstr ""
+
+#: admin-options/yiw_panel.php:851
+#: admin-options/yiw_panel.php:987
+msgid "Upload Image"
+msgstr ""
+
+#: admin-options/yiw_panel.php:902
+#: admin-options/yiw_panel.php:1082
+#: admin-options/yiw_panel.php:1151
+msgid "Delete"
+msgstr ""
+
+#: admin-options/yiw_panel.php:967
+#: admin-options/yiw_panel.php:968
+msgid "Slide Title"
+msgstr ""
+
+#: admin-options/yiw_panel.php:974
+#: admin-options/yiw_panel.php:975
+msgid "Tooltip Content"
+msgstr ""
+
+#: admin-options/yiw_panel.php:974
+msgid "HTML Tags allowed"
+msgstr ""
+
+#: admin-options/yiw_panel.php:984
+#: admin-options/yiw_panel.php:986
+msgid "Image URL"
+msgstr ""
+
+#: admin-options/yiw_panel.php:997
+#: admin-options/yiw_panel.php:1000
+msgid "Code Video"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1008
+msgid "Slide Link"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1010
+msgid "page"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1011
+msgid "category"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1013
+msgid "url"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1014
+msgid "none"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1051
+msgid "Choose a page..."
+msgstr ""
+
+#: admin-options/yiw_panel.php:1120
+msgid "Field Title"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1121
+#: admin-options/include/contact_add.php:147
+msgid "Data Name"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1122
+#: admin-options/include/contact_add.php:241
+msgid "Required"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1123
+msgid "Type"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1139
+msgid "Move up"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1145
+msgid "Move down"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1157
+msgid "No fields created yet."
+msgstr ""
+
+#: admin-options/yiw_panel.php:1189
+msgid "If you continue with this action, you will reset all options are in this page."
+msgstr ""
+
+#: admin-options/yiw_panel.php:1190
+#: admin-options/include/contact_add.php:293
+msgid "Reset"
+msgstr ""
+
+#: admin-options/yiw_panel.php:1190
+msgid "Are you sure of it?"
+msgstr ""
+
+#: admin-options/include/contact_add.php:74
+msgid "Add New Field"
+msgstr ""
+
+#: admin-options/include/contact_add.php:75
+msgid "Add new field for your contact module."
+msgstr ""
+
+#: admin-options/include/contact_add.php:83
+msgid "Edit Field"
+msgstr ""
+
+#: admin-options/include/contact_add.php:84
+msgid "Edit the attributes of field."
+msgstr ""
+
+#: admin-options/include/contact_add.php:137
+msgid "Title Field"
+msgstr ""
+
+#: admin-options/include/contact_add.php:141
+msgid "Insert the title of field."
+msgstr ""
+
+#: admin-options/include/contact_add.php:151
+msgid "The identification name of this field, that you can insert into body email configuration."
+msgstr ""
+
+#: admin-options/include/contact_add.php:161
+msgid "Small description, showed near name title."
+msgstr ""
+
+#: admin-options/include/contact_add.php:167
+msgid "Type field"
+msgstr ""
+
+#: admin-options/include/contact_add.php:173
+msgid "Select the type of this field."
+msgstr ""
+
+#: admin-options/include/contact_add.php:179
+msgid "Add options"
+msgstr ""
+
+#: admin-options/include/contact_add.php:182
+msgid "Add option"
+msgstr ""
+
+#: admin-options/include/contact_add.php:192
+#: admin-options/include/contact_add.php:199
+msgid "Selected"
+msgstr ""
+
+#: admin-options/include/contact_add.php:194
+#: admin-options/include/contact_add.php:201
+msgid "Delete option"
+msgstr ""
+
+#: admin-options/include/contact_add.php:209
+msgid "Checked"
+msgstr ""
+
+#: admin-options/include/contact_add.php:214
+msgid "Select this if you want this field already checked."
+msgstr ""
+
+#: admin-options/include/contact_add.php:221
+msgid "Label for Checkbox"
+msgstr ""
+
+#: admin-options/include/contact_add.php:225
+msgid "Insert the label message for checkbox."
+msgstr ""
+
+#: admin-options/include/contact_add.php:231
+#: admin-options/options/contact-options.php:118
+msgid "Message Error"
+msgstr ""
+
+#: admin-options/include/contact_add.php:235
+msgid "Insert the error message for validation."
+msgstr ""
+
+#: admin-options/include/contact_add.php:246
+msgid "Select this if it must be required."
+msgstr ""
+
+#: admin-options/include/contact_add.php:258
+msgid "Select this if it must be a valid email."
+msgstr ""
+
+#: admin-options/include/contact_add.php:265
+msgid "Reply To"
+msgstr ""
+
+#: admin-options/include/contact_add.php:270
+msgid "Select this if it's the email where you can reply."
+msgstr ""
+
+#: admin-options/include/contact_add.php:277
+msgid "Class"
+msgstr ""
+
+#: admin-options/include/contact_add.php:281
+msgid "Insert an additional class for more personalization. (you can insert more class, separeted by space)"
+msgstr ""
+
+#: admin-options/include/contact_add.php:292
+msgid "Save"
+msgstr ""
+
+#: admin-options/install/install.php:92
+#, php-format
+msgid "Truncated %s table"
+msgstr ""
+
+#: admin-options/install/install.php:109
+#, php-format
+msgid "Insert new values into %s table"
+msgstr ""
+
+#: admin-options/install/install.php:111
+#, php-format
+msgid "Error during insert new values (IDs: %s), in %s table"
+msgstr ""
+
+#: admin-options/install/install.php:130
+#, php-format
+msgid "Deleted value from %s table"
+msgstr ""
+
+#: admin-options/install/install.php:132
+#, php-format
+msgid "Error during deleting from %s table (SQL: %s)"
+msgstr ""
+
+#: admin-options/install/install.php:150
+#, php-format
+msgid "Insert new values, into %s table"
+msgstr ""
+
+#: admin-options/install/install.php:152
+#, php-format
+msgid "Error during insert new values (IDs: %s), into %s table"
+msgstr ""
+
+#: admin-options/install/install_panel.php:10
+msgid "Import/Export Theme Data"
+msgstr ""
+
+#: admin-options/install/install_panel.php:21
+msgid "Import Theme Data"
+msgstr ""
+
+#: admin-options/install/install_panel.php:26
+msgid "Insert here the file that you have exported by another installation."
+msgstr ""
+
+#: admin-options/install/install_panel.php:28
+msgid "Make a backup of all installation before import, because it will remove all posts and options of theme, so that you can restore if there are problems after import."
+msgstr ""
+
+#: admin-options/install/install_panel.php:39
+msgid "Click here to download a file with all export, that you will use to import to another installation."
+msgstr ""
+
+#: admin-options/options/colors-options.php:9
+msgid "Colors Settings"
+msgstr ""
+
+#: admin-options/options/colors-options.php:14
+msgid "Color Scheme"
+msgstr ""
+
+#: admin-options/options/colors-options.php:19
+msgid "Colour Choose"
+msgstr ""
+
+#: admin-options/options/colors-options.php:20
+msgid "Select the colour you want, of all common elements."
+msgstr ""
+
+#: admin-options/options/colors-options.php:29
+msgid "Various"
+msgstr ""
+
+#: admin-options/options/colors-options.php:34
+msgid "Text color"
+msgstr ""
+
+#: admin-options/options/colors-options.php:35
+msgid "Select the color of general text."
+msgstr ""
+
+#: admin-options/options/colors-options.php:35
+#: admin-options/options/colors-options.php:41
+#: admin-options/options/colors-options.php:47
+msgid "Leave empty to retrive the default value."
+msgstr ""
+
+#: admin-options/options/colors-options.php:40
+msgid "Links color"
+msgstr ""
+
+#: admin-options/options/colors-options.php:41
+msgid "Select the color of all links."
+msgstr ""
+
+#: admin-options/options/colors-options.php:46
+msgid "Links hover color"
+msgstr ""
+
+#: admin-options/options/colors-options.php:47
+msgid "Select the color of all links, on hover."
+msgstr ""
+
+#: admin-options/options/contact-options.php:11
+msgid "Contact Page Customize"
+msgstr ""
+
+#: admin-options/options/contact-options.php:16
+msgid "Create new"
+msgstr ""
+
+#: admin-options/options/contact-options.php:21
+msgid "New contact form."
+msgstr ""
+
+#: admin-options/options/contact-options.php:22
+msgid "Add new empty contact form, that you can add into pages or posts. After adding new form, select it on option below and click on 'Configure' button to configure it."
+msgstr ""
+
+#: admin-options/options/contact-options.php:25
+msgid "Add Form"
+msgstr ""
+
+#: admin-options/options/contact-options.php:31
+msgid "Configure contact form."
+msgstr ""
+
+#: admin-options/options/contact-options.php:32
+msgid "Choose a contact form and save, to configure below your form choosen."
+msgstr ""
+
+#: admin-options/options/contact-options.php:35
+msgid "Configure"
+msgstr ""
+
+#: admin-options/options/contact-options.php:39
+msgid "Shortcode of form"
+msgstr ""
+
+#: admin-options/options/contact-options.php:40
+msgid "Copy this and paste into editor of pages or posts. This is the shortcode of contact form choosen on option above."
+msgstr ""
+
+#: admin-options/options/contact-options.php:44
+msgid "Delete forms"
+msgstr ""
+
+#: admin-options/options/contact-options.php:45
+msgid "Delete the forms that you have already created."
+msgstr ""
+
+#: admin-options/options/contact-options.php:50
+msgid "Add example form."
+msgstr ""
+
+#: admin-options/options/contact-options.php:51
+msgid "Add a simple example form, specifing the name."
+msgstr ""
+
+#: admin-options/options/contact-options.php:55
+msgid "Create Form"
+msgstr ""
+
+#: admin-options/options/contact-options.php:61
+msgid "Contact Form Configuration for"
+msgstr ""
+
+#: admin-options/options/contact-options.php:65
+msgid "To"
+msgstr ""
+
+#: admin-options/options/contact-options.php:66
+msgid "Define the emails witch send the email written by the user. If they are more then one, you can write theme separated by a comma."
+msgstr ""
+
+#: admin-options/options/contact-options.php:71
+msgid "From Email"
+msgstr ""
+
+#: admin-options/options/contact-options.php:72
+msgid "Define from what email send the message."
+msgstr ""
+
+#: admin-options/options/contact-options.php:77
+msgid "From Name"
+msgstr ""
+
+#: admin-options/options/contact-options.php:78
+msgid "Define the name of email that send the message."
+msgstr ""
+
+#: admin-options/options/contact-options.php:83
+msgid "Subject"
+msgstr ""
+
+#: admin-options/options/contact-options.php:84
+msgid "Define the subject of the email sent to you."
+msgstr ""
+
+#: admin-options/options/contact-options.php:89
+msgid "Body"
+msgstr ""
+
+#: admin-options/options/contact-options.php:90
+msgid "Configure the body email that arrives to you. You can add some shortcode, to add some value insert by user on frontend module. The shortcodes are composed with 'data_name' that you have insert on each field, on below table, like: %data_name%.<br /><em>HTML is allowed.</em>"
+msgstr ""
+
+#: admin-options/options/contact-options.php:93
+msgid ""
+"%message%\n"
+"\n"
+"<small><i>This email is been sent by %name% (email. %email%).</i></small>"
+msgstr ""
+
+#: admin-options/options/contact-options.php:95
+msgid "Label Submit Button"
+msgstr ""
+
+#: admin-options/options/contact-options.php:96
+msgid "Define the label of submit button."
+msgstr ""
+
+#: admin-options/options/contact-options.php:99
+msgid "send message"
+msgstr ""
+
+#: admin-options/options/contact-options.php:101
+msgid "Alignment Submit Button"
+msgstr ""
+
+#: admin-options/options/contact-options.php:102
+msgid "Set the alignment of submit button."
+msgstr ""
+
+#: admin-options/options/contact-options.php:112
+msgid "Message Success"
+msgstr ""
+
+#: admin-options/options/contact-options.php:113
+msgid "Define the message for success sending."
+msgstr ""
+
+#: admin-options/options/contact-options.php:116
+msgid "Email sent correctly!"
+msgstr ""
+
+#: admin-options/options/contact-options.php:119
+msgid "Define the message when there is an error on send of email."
+msgstr ""
+
+#: admin-options/options/contact-options.php:122
+msgid "An error has been encountered. Please try again."
+msgstr ""
+
+#: admin-options/options/contact-options.php:128
+msgid "Customize Contact module"
+msgstr ""
+
+#: admin-options/options/general-options.php:7
+msgid "General Settings"
+msgstr ""
+
+#: admin-options/options/general-options.php:14
+msgid "Custom Favicon"
+msgstr ""
+
+#: admin-options/options/general-options.php:15
+msgid "A favicon is a 16x16 pixel icon that represents your site; paste the URL to a .ico image that you want to use as the image"
+msgstr ""
+
+#: admin-options/options/general-options.php:21
+msgid "Date Format"
+msgstr ""
+
+#: admin-options/options/general-options.php:22
+msgid "Set the general date format of theme. Read <a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>"
+msgstr ""
+
+#: admin-options/options/general-options.php:27
+msgid "Custom Style"
+msgstr ""
+
+#: admin-options/options/general-options.php:28
+msgid "You can write here your custom css, that will replace the default css."
+msgstr ""
+
+#: admin-options/options/general-options.php:33
+msgid "Addtionale JS scripts"
+msgstr ""
+
+#: admin-options/options/general-options.php:34
+msgid "Insert here an optional additional scripts, it will insert on footer. We suggest to start script with <strong>jQuery(document).ready(function(){ // here your script });</strong>"
+msgstr ""
+
+#: admin-options/options/general-options.php:37
+msgid "here your script"
+msgstr ""
+
+#: admin-options/options/general-options.php:46
+#: admin-options/options/sliders-options.php:23
+msgid "Header"
+msgstr ""
+
+#: admin-options/options/general-options.php:50
+msgid "Active Logo Image"
+msgstr ""
+
+#: admin-options/options/general-options.php:51
+msgid "Set if you want to replace the 'Title' and 'description' options of header, with a logo image."
+msgstr ""
+
+#: admin-options/options/general-options.php:56
+msgid "Logo URL"
+msgstr ""
+
+#: admin-options/options/general-options.php:57
+msgid "Enter the URL to your logo image"
+msgstr ""
+
+#: admin-options/options/general-options.php:63
+msgid "Logo Width"
+msgstr ""
+
+#: admin-options/options/general-options.php:64
+msgid "Enter the width of logo, expressed in pixel. (Leave empty for default)"
+msgstr ""
+
+#: admin-options/options/general-options.php:69
+msgid "Logo Height"
+msgstr ""
+
+#: admin-options/options/general-options.php:70
+msgid "Enter the height of logo, expressed in pixel. (Leave empty for default)"
+msgstr ""
+
+#: admin-options/options/general-options.php:82
+msgid "portfolio"
+msgstr ""
+
+#: admin-options/options/general-options.php:86
+msgid "portfolio Type"
+msgstr ""
+
+#: admin-options/options/general-options.php:87
+msgid "Say the layout for your portfolio page."
+msgstr ""
+
+#: admin-options/options/general-options.php:90
+msgid "3 Columns"
+msgstr ""
+
+#: admin-options/options/general-options.php:90
+msgid "With Slider"
+msgstr ""
+
+#: admin-options/options/general-options.php:93
+#: admin-options/options/sliders-options.php:77
+msgid "More text"
+msgstr ""
+
+#: admin-options/options/general-options.php:94
+msgid "Define what show for more link."
+msgstr ""
+
+#: admin-options/options/general-options.php:99
+#: admin-options/options/general-options.php:132
+#: includes/widgets/last_news.php:109
+msgid "Items"
+msgstr ""
+
+#: admin-options/options/general-options.php:100
+msgid "Select how many items you want to show."
+msgstr ""
+
+#: admin-options/options/general-options.php:107
+msgid "Lightbox Skin"
+msgstr ""
+
+#: admin-options/options/general-options.php:108
+msgid "Specific what skin you want for videos and images lightbox."
+msgstr ""
+
+#: admin-options/options/general-options.php:128
+msgid "Blog Settings"
+msgstr ""
+
+#: admin-options/options/general-options.php:133
+msgid "Select how many items you want to show on Blog Page"
+msgstr ""
+
+#: admin-options/options/general-options.php:140
+msgid "Exclude categories"
+msgstr ""
+
+#: admin-options/options/general-options.php:141
+msgid "Select witch categories you want exlude from blog."
+msgstr ""
+
+#: admin-options/options/general-options.php:145
+msgid "Blog Page"
+msgstr ""
+
+#: admin-options/options/general-options.php:145
+msgid "List cat. sidebar"
+msgstr ""
+
+#: admin-options/options/general-options.php:148
+msgid "Featured Images Alignment"
+msgstr ""
+
+#: admin-options/options/general-options.php:149
+msgid "Specific the featured images alignment"
+msgstr ""
+
+#: admin-options/options/general-options.php:159
+msgid "Featured Images Size"
+msgstr ""
+
+#: admin-options/options/general-options.php:160
+msgid "Specific the featured images size"
+msgstr ""
+
+#: admin-options/options/general-options.php:172
+msgid "Featured Images Width"
+msgstr ""
+
+#: admin-options/options/general-options.php:173
+msgid "Specific the featured images width, <strong>if you have selected custom size on option above.</strong>"
+msgstr ""
+
+#: admin-options/options/general-options.php:178
+msgid "Featured Images Height"
+msgstr ""
+
+#: admin-options/options/general-options.php:179
+msgid "Specific the featured images height, <strong>if you have selected custom size on option above.</strong>"
+msgstr ""
+
+#: admin-options/options/general-options.php:191
+msgid "Footer"
+msgstr ""
+
+#: admin-options/options/general-options.php:195
+msgid "Footer Type"
+msgstr ""
+
+#: admin-options/options/general-options.php:196
+msgid "Select the footer type for the theme"
+msgstr ""
+
+#: admin-options/options/general-options.php:200
+msgid "Two Columns Footer"
+msgstr ""
+
+#: admin-options/options/general-options.php:201
+msgid "Centered Footer"
+msgstr ""
+
+#: admin-options/options/general-options.php:205
+msgid "Footer centered text"
+msgstr ""
+
+#: admin-options/options/general-options.php:206
+msgid "Enter text used in <strong>centered footer</strong>. It can be HTML."
+msgstr ""
+
+#: admin-options/options/general-options.php:211
+msgid "Footer copyright text Left"
+msgstr ""
+
+#: admin-options/options/general-options.php:212
+msgid "Enter text used in the left side of the footer. It can be HTML. <strong>NB: not figured on 'centered footer'</strong>"
+msgstr ""
+
+#: admin-options/options/general-options.php:217
+msgid "Footer copyright text Right"
+msgstr ""
+
+#: admin-options/options/general-options.php:218
+msgid "Enter text used in the right side of the footer. It can be HTML. <strong>NB: not figured on 'centered footer'</strong>"
+msgstr ""
+
+#: admin-options/options/general-options.php:223
+msgid "Google Analytics Code"
+msgstr ""
+
+#: admin-options/options/general-options.php:224
+msgid "You can paste your Google Analytics or other tracking code in this box. This will be automatically added to the footer."
+msgstr ""
+
+#: admin-options/options/sidebars-options.php:7
+msgid "Sidebar Manager"
+msgstr ""
+
+#: admin-options/options/sidebars-options.php:10
+msgid "Create Sidebar"
+msgstr ""
+
+#: admin-options/options/sidebars-options.php:15
+msgid "Sidebar name"
+msgstr ""
+
+#: admin-options/options/sidebars-options.php:16
+msgid "Add a new sidebar.<br/><b>NB:</b> by default, there are 1 sidebar have already created: <br />- '<strong>Blog Sidebar</strong>', for Blog Template; <br />- '<strong>Home Colourful Section</strong>'; <br />- '<strong>Home Sidebar</strong>'; <br />- '<strong>Footer Row 1/2/3</strong>', for Footer."
+msgstr ""
+
+#: admin-options/options/sidebars-options.php:29
+msgid "Sidebar created"
+msgstr ""
+
+#: admin-options/options/sidebars-options.php:36
+msgid "List sidebar created"
+msgstr ""
+
+#: admin-options/options/sidebars-options.php:37
+msgid "Table with sidebar that you have created."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:12
+msgid "Sliders Manager"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:17
+msgid "Select slider to show or configure"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:22
+msgid "Default Header image type"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:23
+msgid "Select the default header type for homepage pages."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:23
+#, php-format
+msgid "for 'Fixed Image', you can configure it on %s -> %s."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:23
+msgid "Appearance"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:27
+msgid "fixed-image"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:29
+msgid "Configure slider."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:31
+msgid "Choose a slider and save, to configure below your slider choosen."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:41
+#: admin-options/options/sliders-options.php:110
+msgid "Slider Settings"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:45
+#: admin-options/options/sliders-options.php:114
+msgid "Effect"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:46
+#: admin-options/options/sliders-options.php:115
+msgid "Select the effect you want for slides transiction."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:52
+msgid "Easing"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:53
+msgid "Select the easing for effect transition."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:59
+#: admin-options/options/sliders-options.php:121
+msgid "Speed (s)"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:60
+#: admin-options/options/sliders-options.php:122
+msgid "Select the speed of transiction between slides, expressed in seconds."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:68
+#: admin-options/options/sliders-options.php:130
+msgid "Timeout (s)"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:69
+#: admin-options/options/sliders-options.php:131
+msgid "Select the delay between slides, expressed in seconds."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:78
+msgid "Write what you want to show on more link, if you have selected 'YES' on option above."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:81
+msgid "Read more..."
+msgstr ""
+
+#: admin-options/options/sliders-options.php:87
+msgid "Slides"
+msgstr ""
+
+#: admin-options/options/sliders-options.php:89
+msgid "Add/Edit Slide"
+msgstr ""
+
+#: admin-options/options/typography-options.php:7
+msgid "Typography Settings"
+msgstr ""
+
+#: admin-options/options/typography-options.php:15
+msgid "Font for main titles"
+msgstr ""
+
+#: admin-options/options/typography-options.php:16
+msgid "Select the cufon font for the mains texts. NB: the following font size settings must be configured after change this font setting."
+msgstr ""
+
+#: admin-options/options/typography-options.php:26
+msgid "Main Typography"
+msgstr ""
+
+#: admin-options/options/typography-options.php:30
+msgid "Main Text"
+msgstr ""
+
+#: admin-options/options/typography-options.php:31
+msgid "Select the size for the main text."
+msgstr ""
+
+#: admin-options/options/typography-options.php:39
+msgid "Head line 1 (h1)"
+msgstr ""
+
+#: admin-options/options/typography-options.php:40
+msgid "Select the size for headline 1 (h1)."
+msgstr ""
+
+#: admin-options/options/typography-options.php:48
+msgid "Head line 2 (h2)"
+msgstr ""
+
+#: admin-options/options/typography-options.php:49
+msgid "Select the size for headline 2 (h2)."
+msgstr ""
+
+#: admin-options/options/typography-options.php:57
+msgid "Head line 3 (h3)"
+msgstr ""
+
+#: admin-options/options/typography-options.php:58
+msgid "Select the size for headline 3 (h3)."
+msgstr ""
+
+#: admin-options/options/typography-options.php:66
+msgid "Head line 4 (h4)"
+msgstr ""
+
+#: admin-options/options/typography-options.php:67
+msgid "Select the size for headline 4 (h4)."
+msgstr ""
+
+#: admin-options/options/typography-options.php:75
+msgid "Head line 5 (h5)"
+msgstr ""
+
+#: admin-options/options/typography-options.php:76
+msgid "Select the size for headline 5 (h5)."
+msgstr ""
+
+#: admin-options/options/typography-options.php:84
+msgid "Head line 6 (h6)"
+msgstr ""
+
+#: admin-options/options/typography-options.php:85
+msgid "Select the size for headline 6 (h6)."
+msgstr ""
+
+#: admin-options/options/typography-options.php:101
+msgid "Navigation Items"
+msgstr ""
+
+#: admin-options/options/typography-options.php:102
+msgid "Select the size for the navigation items."
+msgstr ""
+
+#: admin-options/options/typography-options.php:110
+msgid "Slogan"
+msgstr ""
+
+#: admin-options/options/typography-options.php:111
+msgid "Set the size of slogan."
+msgstr ""
+
+#: includes/functions.php:31
+msgid "The theme you are using requires WordPress version 3.0 or higher. So, many features of it will not perform correctly."
+msgstr ""
+
+#: includes/functions.php:114
+msgid "Sea"
+msgstr ""
+
+#: includes/functions.php:120
+msgid "Flowers"
+msgstr ""
+
+#: includes/functions.php:126
+msgid "Portrait"
+msgstr ""
+
+#: includes/functions.php:132
+msgid "Heart"
+msgstr ""
+
+#: includes/functions.php:138
+msgid "Black & White"
+msgstr ""
+
+#: includes/functions.php:150
+msgid "Navigation"
+msgstr ""
+
+#: includes/functions.php:162
+msgid "The sidebar showed on page with Blog template"
+msgstr ""
+
+#: includes/functions.php:163
+msgid "The row below home content."
+msgstr ""
+
+#: includes/functions.php:366
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: includes/functions.php:371
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/functions.php:380
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/functions.php:380
+#: includes/functions.php:403
+msgid "(Edit)"
+msgstr ""
+
+#: includes/functions.php:403
+msgid "Pingback:"
+msgstr ""
+
+#: includes/sendemail.php:258
+msgid "alignright"
+msgstr ""
+
+#: includes/sendemail.php:297
+msgid "wait..."
+msgstr ""
+
+#: includes/shortcodes.php:1720
+msgid "Sign up"
+msgstr ""
+
+#: includes/shortcodes.php:1888
+msgid "More Details"
+msgstr ""
+
+#: includes/widgets/address_info.php:8
+msgid "Widget with a simple address information."
+msgstr ""
+
+#: includes/widgets/address_info.php:13
+msgid "Address Info"
+msgstr ""
+
+#: includes/widgets/address_info.php:22
+msgid "Find Us"
+msgstr ""
+
+#: includes/widgets/address_info.php:34
+#: includes/widgets/contact_info.php:31
+#: includes/widgets/last_news.php:103
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/address_info.php:46
+msgid "Address"
+msgstr ""
+
+#: includes/widgets/address_info.php:52
+msgid "Zip Code"
+msgstr ""
+
+#: includes/widgets/address_info.php:58
+msgid "State"
+msgstr ""
+
+#: includes/widgets/address_info.php:64
+msgid "City"
+msgstr ""
+
+#: includes/widgets/almost_all_categories.php:8
+msgid "Get list of categories, without categories excluded from options panel."
+msgstr ""
+
+#: includes/widgets/almost_all_categories.php:26
+msgid "Widget Title"
+msgstr ""
+
+#: includes/widgets/almost_all_categories.php:29
+msgid "Configure this widget on the Theme Option Admin, to exclude the categories from this list."
+msgstr ""
+
+#: includes/widgets/contact_info.php:8
+msgid "Widget with a simple contact information."
+msgstr ""
+
+#: includes/widgets/contact_info.php:13
+msgid "Contact Info"
+msgstr ""
+
+#: includes/widgets/contact_info.php:22
+msgid "Contacts"
+msgstr ""
+
+#: includes/widgets/contact_info.php:37
+msgid "Phone"
+msgstr ""
+
+#: includes/widgets/contact_info.php:43
+msgid "Fax"
+msgstr ""
+
+#: includes/widgets/google_map.php:9
+msgid "Box with google map."
+msgstr ""
+
+#: includes/widgets/last_news.php:9
+msgid "The last news."
+msgstr ""
+
+#: includes/widgets/last_news.php:63
+msgid "by"
+msgstr ""
+
+#: includes/widgets/last_news.php:115
+msgid "Show date"
+msgstr ""
+
+#: includes/widgets/last_news.php:124
+msgid "Show author"
+msgstr ""
+
+#: includes/widgets/last_tweets.php:8
+msgid "Retrieve the last tweets."
+msgstr ""
+
+#: includes/widgets/popular_posts.php:9
+msgid "Show a list of popular posts, in order of comments, with a preview thumb."
+msgstr ""
+
+#: includes/widgets/popular_posts.php:61
+#: includes/widgets/recent_posts.php:58
+msgid "Read More"
+msgstr ""
+
+#: includes/widgets/recent_posts.php:9
+msgid "The latest posts, with a preview thumb."
+msgstr ""
+
+#: includes/widgets/testimonials.php:9
+msgid "Add a slider testimonial on your widget which link a category to show the contents."
+msgstr ""
+
+#: includes/widgets/text_image.php:8
+msgid "Arbitrary text or HTML, with a simple image above text."
+msgstr ""
+
+#: includes/widgets/text_image.php:13
+msgid "Text With Image"
+msgstr ""
+
